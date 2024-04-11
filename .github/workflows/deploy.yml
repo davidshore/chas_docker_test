@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Go to
+        run: cd frontend
+
       - name: Install Dependencies
         run: npm install
 
